@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+.navbar {
+    background:#4693b4;
+    
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+    
+}
+.nav-link {
+    margin-right: 2em !important;
+    font-family:'Courier New' ;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.description {
+	text-align: center;
+    font-family: 'Courier New';
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    margin-left: 50px;
+    margin-right:50px;
+}
+.description h1 {
+	color: #b49146;
+    font-size: 500%;
+    margin-bottom:2rem;
+    margin-top:8rem;
+    text-shadow: 1px 1px #b49146, 
+                2px 2px #b49146, 
+                3px 3px #b49146;
+}
+.description p {
+	color: rgb(0, 0, 0);
+	font-size: 1.3rem;
+	line-height: 1.5;
+    margin-bottom:5rem;
+}
+.description button {
+    border:1px solid #b49146;
+    background:#b49146;
+    border-radius: 0;
+    color:#fff;
+}
+.description button:hover {
+	border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+
+#brief {
+    color:rgb(0, 0, 0);
+    left: 20%;
+	position: absolute;
+	top: 150%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+    font-family: 'Courier New';
+}
+
+#images{
+    display:grid;
+    position:absolute;
+    margin: 15px;
+    grid-gap:60px;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr;
+}
+
+.grow img {
+    opacity: 0.7;
+    vertical-align: bottom;
+    -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+                transition: all 0.5s ease-in-out;  
+}
+
+img:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+.image-item{
+    width:35rem;
+    height:24rem;
+}
+
+.circular-square{
+    width:25rem;
+    height:25rem;
+    border-radius: 50%;
+    margin-top:20%;
+}
+
+.contact-div{
+    margin:10%;
+    font-family: 'Courier New';
+    justify-content: space-evenly;
+}
+.contact-div h3{
+    text-align: center;
+}
+
+.format{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sub{
+    text-align: center;
+}
